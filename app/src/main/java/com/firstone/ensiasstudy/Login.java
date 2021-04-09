@@ -24,7 +24,13 @@ public class Login extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        fAuth = FirebaseAuth.getInstance();
+        if(fAuth.getCurrentUser() != null){
+            startActivity(new Intent(getApplicationContext(),MainActivity.class));
+            finish();
+        }
         super.onCreate(savedInstanceState);
+        setTheme(R.style.Theme_EnsiasStudy);
         setContentView(R.layout.activity_login);
 
         _email = findViewById(R.id.loginEmail);
