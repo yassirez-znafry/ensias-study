@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "33663228492",
+    "project_id": "ensias-study",
+    "storage_bucket": "ensias-study.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33663228492:android:70d066831aff153531b2e9",
+        "android_client_info": {
+          "package_name": "com.firstone.ensiasstudy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33663228492-940bs35d2n32es96kunltgt2fjf25qbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE1CLc24qsk8XcsoHsNxk6hsmnnr5-x_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33663228492-940bs35d2n32es96kunltgt2fjf25qbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
