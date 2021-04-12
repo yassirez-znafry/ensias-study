@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Ensias Study</string>
+    <string-array name="annee">
+        <item>1A</item>
+        <item>2A</item>
+        <item>3A</item>
+    </string-array>
+    <string-array name="filiere">
+        <item>GL</item>
+        <item>IWIM</item>
+        <item>ISEM</item>
+        <item>IA</item>
+    </string-array>
 </resources>
