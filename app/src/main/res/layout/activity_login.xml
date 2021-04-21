@@ -12,7 +12,7 @@
         android:layout_height="58dp"
         android:layout_marginTop="48dp"
         android:ems="10"
-        android:hint="Email Address"
+        android:hint="Addresse Email"
         android:inputType="textWebEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,11 +20,11 @@
 
     <EditText
         android:id="@+id/loginPassword"
-        android:layout_width="356dp"
-        android:layout_height="57dp"
+        android:layout_width="354dp"
+        android:layout_height="58dp"
         android:layout_marginTop="31dp"
         android:ems="10"
-        android:hint="Password"
+        android:hint="Mot de Passe"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,20 +32,22 @@
 
     <Button
         android:id="@+id/loginbtn"
-        android:layout_width="354dp"
+        android:layout_width="250dp"
         android:layout_height="64dp"
         android:layout_marginTop="50dp"
-        android:text="Login"
+        android:text="Se Connecter"
+        android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginPassword" />
 
     <Button
         android:id="@+id/createAccountBtn"
-        android:layout_width="357dp"
-        android:layout_height="66dp"
+        android:layout_width="250dp"
+        android:layout_height="64dp"
         android:layout_marginTop="24dp"
-        android:text="Create Account"
+        android:text="Créer un compte"
+        android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginbtn" />

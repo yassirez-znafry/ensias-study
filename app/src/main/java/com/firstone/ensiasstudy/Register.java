@@ -13,6 +13,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.firstone.ensiasstudy.models.User;
@@ -28,7 +29,8 @@ public class Register extends AppCompatActivity {
     EditText _name,_email,_password, _confPassword;
     Spinner _annee, _filiere;
     public String annee, filiere;
-    Button registerBtn, gotoLoginBtn;
+    Button registerBtn;
+    TextView gotoLogin;
     FirebaseAuth fAuth;
     // FirebaseFirestore fStore;
 
@@ -47,7 +49,7 @@ public class Register extends AppCompatActivity {
         _annee = findViewById(R.id.registerAnnee);
         _filiere = findViewById(R.id.registerFiliere);
         registerBtn= findViewById(R.id.registerBtn);
-        gotoLoginBtn   = findViewById(R.id.gotoLogin);
+        gotoLogin   = findViewById(R.id.alreadyHaveAnAccountlink);
 
         fAuth = FirebaseAuth.getInstance();
 
@@ -149,7 +151,7 @@ public class Register extends AppCompatActivity {
 
 
 
-        gotoLoginBtn.setOnClickListener(new View.OnClickListener() {
+        gotoLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(),Login.class));
